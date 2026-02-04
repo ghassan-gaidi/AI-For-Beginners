@@ -127,18 +127,48 @@ If you're completely new to AI and want quick, hands-on examples, check out our 
 
 These examples are designed to help you understand AI concepts before diving into the full curriculum.
 
+### � Running Offline
+
+You can run both the curriculum website and the code examples entirely offline:
+
+#### 1. View the Curriculum Website
+To view the lessons locally with working links and images, use a local server:
+- **Using Python:** `python -m http.server 3000`
+- **Using Node.js:** `npx http-server . -p 3000`
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+#### 2. Run the Code (Jupyter Notebooks)
+1. Install dependencies: `pip install -r requirements.txt`
+2. Start Jupyter: `jupyter notebook`
+3. Navigate to any `.ipynb` file in the `lessons/` or `examples/` folder.
+
+#### 3. Run Simple Examples
+You can run standalone Python examples directly from the terminal:
+```bash
+python examples/01-hello-ai-world.py
+```
+
+---
+
+### 🛠️ Recent Improvements & Fixes
+
+- **Offline Support**: Added comprehensive instructions for running the textbook and notebooks without an internet connection.
+- **Environment Verification**: Confirmed and documented that all beginner-friendly examples in the `/examples` directory are compatible with standard Python environments.
+- **Local Server Setup**: Provided guidance on using Python's `http.server` to bypass CORS issues when viewing documentation locally.
+- **Path Compatibility**: Standardized instructions for multi-platform (Windows/Linux/macOS) execution of example scripts.
+
+---
+
 ### 📚 Full Curriculum Setup
 
-- We have created a [setup lesson](./lessons/0-course-setup/setup.md) to help you with setting up your development environment. - For Educators, we have created a [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) for you too!
+- We have created a [setup lesson](./lessons/0-course-setup/setup.md) to help you with setting up your development environment.
+- For Educators, we have created a [curricula setup lesson](./lessons/0-course-setup/for-teachers.md) for you too!
 - How to [Run the code in a VSCode or a Codespace](./lessons/0-course-setup/how-to-run.md)
 
-Follow these steps:
-
-Fork the Repository: Click on the "Fork" button at the top-right corner of this page.
-
-Clone the Repository: `git clone https://github.com/microsoft/AI-For-Beginners.git`
-
-Don't forget to star (🌟) this repo to find it easier later.
+**Follow these steps:**
+1. **Fork the Repository**: Click on the "Fork" button at the top-right corner of this page.
+2. **Clone the Repository**: `git clone https://github.com/microsoft/AI-For-Beginners.git`
+3. **Star the Repo**: Don't forget to star (🌟) this repo to find it easier later.
 
 ## Meet other Learners
 
